@@ -12,8 +12,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>21</maven.compiler.target>
-        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.release>21</maven.compiler.release>
         <junit.version>5.13.2</junit.version>
     </properties>
 
@@ -28,6 +27,7 @@
             <groupId>org.primefaces</groupId>
             <artifactId>primefaces</artifactId>
             <version>14.0.0</version>
+            <classifier>jakarta</classifier>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -58,3 +58,4 @@
         </plugins>
     </build>
 </project>
+
